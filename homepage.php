@@ -416,7 +416,7 @@
                             	<?php if ( wpex_get_data( 'home_clients_heading_enable', '1' ) == '1' ) { ?>
                                     <header class="home-clients-header container clr">
                                         <h2 class="home-clients-heading">
-                                            <span><?php echo wpex_get_data('home_clients_heading', __( 'Our Clients', 'wpex' ) ); ?></span>
+                                            <span>Brands we carry</span>
                                         </h2>
                                     </header>
                                 <?php } ?>

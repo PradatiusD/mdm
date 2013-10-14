@@ -9,7 +9,7 @@
 ?>
 
 <?php global $wpex_count; ?>
-<article id="post-<?php the_ID(); ?>" class="client-entry <?php echo wpex_grid_class( wpex_get_data( 'clients_columns','5' ) ); ?> col col-<?php echo $wpex_count; ?>">
+<article id="post-<?php the_ID(); ?>" class="client-entry <?php echo wpex_grid_class( wpex_get_data( 'clients_columns','5' ) ); ?> col col-<?php echo $wpex_count-1; ?>">
 	<?php
 	// Display client item with link
 	if ( get_post_meta( get_the_ID(), 'wpex_post_url', TRUE ) !== '' ) { ?>
